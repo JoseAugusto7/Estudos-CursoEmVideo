@@ -1,0 +1,10 @@
+Existem dois tipos de caixa, box-level e inline-level
+
+Box-level, é o tipo de caixa que ocupa 100% da tela, tem como mudar isso no css mas ela ocupa normalmente 100%,
+com isso ela quebra a linha e tem o próprio espaço.
+
+Alguns tipos de box-level: div, h1 a h6, p, main, header, nav, article, aside, footer, form, video.
+
+Inline-level, é o tipo de caixa que apenas da um espaço e se coloca logo após na mesma linha se ouver espaço pra isso.
+
+Alguns tipos de inline-level: span, a, code, small, strong, em, sup e sup, label, button, input, select.

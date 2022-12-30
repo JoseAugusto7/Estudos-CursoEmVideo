@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(118, 118, 118);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(211, 211, 211, 0.555);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--Tag semântica para cabeçalho-->
+        <h1>Meu site</h1>
+        <nav> <!--Tag semântica para o menu (navbar)-->
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main> <!--Tag semântica para o conteúdo principal da página-->
+        <section> <!--Tag semântica para uma seção do site-->
+            <article> <!--Tag semântica para um artigo do site-->
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni soluta repellat animi voluptates, exercitationem beatae, assumenda quibusdam aut velit aliquam aperiam commodi sit recusandae! Explicabo dolorem dolorum recusandae architecto modi.</p>
+                <aside> <!--Tag semântica para um conteúdo periférico ao artigo-->
+                    <p>artigo escrito por....</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer> <!--Tag semântica para o rodapé da página-->
+        <p>Desenvolvivo por.....</p>
+    </footer>
+</body>
+</html>

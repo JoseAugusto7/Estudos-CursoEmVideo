@@ -14,6 +14,18 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; /* Esta tag é para o seu background não rolar junto com o conteúdo do site, ele fica fixo. */
+
+
+            /*
+                shorthand - background
+                color > image > position > repeat > attachment
+
+                No caso acima com a shorthand ficaria 
+                background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+
+                o background-size não entra na shorthand, deve ser colocado normalmente.
+            */
         }
 
         main {

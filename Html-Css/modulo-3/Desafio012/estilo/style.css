@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: .3s;
+}
+
+header a:hover {
+    color: pink;
+}
+
+main > section.fundo1 {
+    background-color: white;
+}
+
+main > section.fundo2 {
+    background-color: black;
+    color: white;
+}

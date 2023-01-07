@@ -25,6 +25,17 @@
             color: white;
         }
 
+        thead > tr > th { /* Essa configuração é para o cabeçalho ficar colado acima quando rolar a página. */
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+
+        tbody > tr:nth-child(2n) { /* Essa pseudoclasse é para deixar zebrado, nesse caso está de 2 em 2 mas da pra ser de quanto em quanto quiser, dá pra ser nos números impares colocando (odd) no lugar do (2n) ou (iven) que é par */
+            background-color: lightgray;
+        }
+
         caption {
             font-size: 1.5em;
             font-weight: bold;

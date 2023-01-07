@@ -5,6 +5,10 @@
     margin: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
     background-color: black;
     color: white;
@@ -12,8 +16,8 @@ header {
 }
 
 header > h1 {
+    font-variant: small-caps;
     padding-top: 50px;
-    font-size: 10vw;
 }
 
 header > p {
@@ -32,11 +36,41 @@ header a:hover {
     color: pink;
 }
 
-main > section.fundo1 {
+main > section.normal {
     background-color: white;
 }
 
-main > section.fundo2 {
+main > section.imagem {
+    background-color: rgb(117, 117, 117);
+    color: white;
+}
+
+main > section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.304);
+    width: 400px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+footer {
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 10px;
+    transition-duration: .4s;
+}
+
+footer > a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer > a:hover {
+    color: rgba(137, 43, 226, 0.955);
 }

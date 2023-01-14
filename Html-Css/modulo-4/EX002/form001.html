@@ -11,6 +11,8 @@
 
     <form action="cadastro.php" method="post" autocomplete="off">  <!-- Autocomplete 'off' é para não mostrar as opções de completar, se quiser que mostre é so deixar sem ou colocar 'on'-->
     <!-- A tag method 'post' em vez de 'get' é para não mostrar os dados do usuário na URL, porém ainda há um método de achar esses dados bem facilmente.-->
+    <!-- O method 'get' é para dados que não são sensíveis, pois com essa tag há a possibilidade de compartilhar a URL para outras pessoas (a url deve conter no máximo 3mil letras), um exemplo são as pesquisas do google.-->
+    <!-- O method 'post' é para dados sensíveis como senhas, fotos, etc. Também para uma url que vá ultrapassar as 3mil letras. Para envio de arquivos também.-->
         <p><label for="inome">Nome</label>
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome</label>

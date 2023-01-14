@@ -7,10 +7,16 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Meu primeiro Formulário</h1>
+    <h1>Meu primeiro Formulário</h1>  <!--Label é usado para fazer com que o formulário se relacione com o significado dele, com a palavra que diz o que colocar naquele formulário-->
 
-    <p>Nome <input type="text" name="nome" id="nome"></p> 
-    <p>Sobrenome <input type="text" name="sobrenome" id="sobrenome"></p>
-    <p><input type="submit" value="Enviar"></p>
+    <form action="cadastro.php" method="post" autocomplete="off">  <!-- Autocomplete 'off' é para não mostrar as opções de completar, se quiser que mostre é so deixar sem ou colocar 'on'-->
+    <!-- A tag method 'post' em vez de 'get' é para não mostrar os dados do usuário na URL, porém ainda há um método de achar esses dados bem facilmente.-->
+        <p><label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        
+        <p><input type="submit" value="Enviar"></p>
+    </form>
 </body>
 </html>

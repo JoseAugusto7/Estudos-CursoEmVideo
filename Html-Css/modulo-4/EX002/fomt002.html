@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="iusu">Usuário</label> <!--minlength e maxlength é para limitar o tamanho do conteúdo-->
+            <input type="text" name="usu" id="iusu" required minlength="8" maxlength="15" size="10"> <!-- A tag required é para ser obrigatório o preenchimento-->
+            <!-- A tag 'size' serve para aumentar o tamanho da caixa mas não limita o tamanho do conteúdo.-->
+        </p>
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required placeholder="12345"> <!--A tag 'placeholder' serve para colocar alguma palavra ou frase dentro da caixa (quando a caixa começar a ser preenchida a frase desaparece).-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

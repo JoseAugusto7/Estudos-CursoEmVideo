@@ -34,12 +34,12 @@
     div#imagem {
         width: 45%;
         height: 100%;
-        float: left;
+        float: right;
     }
 
     div#form {
         width: 55%;
         height: 100%;
-        float: right;
+        float: left;
     }
 }

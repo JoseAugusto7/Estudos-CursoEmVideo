@@ -54,6 +54,11 @@ div#form {
     display: block;
 }
 
-div#form > h1, p {
+div#form > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div#form > p {
     text-align: center;
 }

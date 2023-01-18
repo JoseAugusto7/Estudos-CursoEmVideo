@@ -8,6 +8,11 @@
     section#login {
         width: 90vw;
         background-color: #49a09d54;
+        height: 280px;
+    }
+
+    div.campo > input {
+        width: 90%;
     }
 
     div#imagem {
@@ -31,6 +36,11 @@
     section#login {
         width: 950px;
         background-color: #49a09d54;
+        height: 380px;
+    }
+
+    div.campo > input {
+        width: 90%;
     }
 
     div#imagem {
@@ -43,5 +53,9 @@
         width: 55%;
         height: 100%;
         float: left;
+    }
+
+    form > input {
+        margin-top: 30px;
     }
 }

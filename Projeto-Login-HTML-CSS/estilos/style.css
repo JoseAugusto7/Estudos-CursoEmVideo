@@ -64,8 +64,18 @@ div#form > p {
     margin-bottom: 10px;
 }
 
+div.campo > input {
+    background-color: lightgray;
+    width: 80%;
+    border-radius: 7px;
+}
+
 form > div.campo {
     padding: 5px 0px 10px 0px;
+}
+
+.material-symbols-outlined {
+    transform: translateY(7px);
 }
 
 form > input[type=submit] {

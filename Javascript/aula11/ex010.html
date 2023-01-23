@@ -29,9 +29,9 @@
             var cvel = document.querySelector('input#nvel')
             var vel = Number(cvel.value)
             var resultado = document.querySelector('div.resultado')
-            resultado.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}</strong> Km/H</p>`
+            resultado.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}</strong> Km/H</p><br>`
             if (vel > 80) {
-                resultado.innerHTML += `<p>Você ultrapassou o limite de velocidade e com isso foi MULTADO!</p>`
+                resultado.innerHTML += `<p>Você ultrapassou o limite de velocidade e com isso foi MULTADO!</p><br>`
             }
             resultado.innerHTML += `<p>Dirija sempre com cinto de segurança.</p>`
         }

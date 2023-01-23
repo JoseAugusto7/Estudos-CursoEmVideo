@@ -1,4 +1,4 @@
-var country = ('EUA')
+var country = ('BR')
 console.log(`Vivendo no ${country}`)
 
 if (country == 'BR') {
